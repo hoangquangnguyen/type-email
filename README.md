@@ -1,5 +1,5 @@
 # type-email
-
+with vue3 + tailwindcss
 ## Project setup
 ```
 yarn install
