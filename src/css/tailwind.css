@@ -6,6 +6,14 @@
     .app{
         font-family: 'Sora', sans-serif;
     }
+    p{
+        font-family: 'Sora', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        color:#545454;
+    }
+
     .text-gradient{
         @apply w-fit bg-gradient-to-r from-yellow-200 to-green-600 bg-clip-text text-3xl font-bold text-transparent
     }

@@ -1,20 +1,23 @@
 <template>
   <div class="overflow-x-hidden bg-[#FDF9F1]">
-    <Header />
-    <CountDown />
+    <HeaderComponent />
+    <CountdownComponent />
+    <NewsletterComponent />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Header from "../components/Header.vue";
-import CountDown from "@/components/CountDown.vue";
+import HeaderComponent from "../components/HeaderComponent.vue";
+import NewsletterComponent from "../components/NewsletterComponent.vue";
+import CountdownComponent from "../components/CountdownComponent.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
-    Header,
-    CountDown,
+    HeaderComponent,
+    CountdownComponent,
+    NewsletterComponent,
   },
 });
 </script>
