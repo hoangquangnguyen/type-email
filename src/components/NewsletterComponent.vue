@@ -68,7 +68,6 @@
       </div>
     </div>
   </div>
-  <div class="h-[100px]"></div>
 </template>
 
 <script lang="ts">
